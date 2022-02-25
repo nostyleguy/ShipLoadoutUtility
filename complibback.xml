@@ -1,0 +1,863 @@
+<?xml version="1.0" standalone="yes"?>
+<pilotname>
+  <xs:schema id="pilotname" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pilotname" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Reactor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Generation" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Reactor_Experimental_x0020_Fusion_x0020_Reactor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Generation" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Reactor_NHD_x0020_Aroura_x0020_Max">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Generation" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Engine_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                <xs:element name="Yaw" type="xs:double" minOccurs="0" />
+                <xs:element name="Roll" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Engine_Illegally_x0020_Modified_x0020_Novadelex">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                <xs:element name="Yaw" type="xs:double" minOccurs="0" />
+                <xs:element name="Roll" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Engine_Graxcorp_x0020_Experimental_x0020_Slipstream_x0020_Drive">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                <xs:element name="Yaw" type="xs:double" minOccurs="0" />
+                <xs:element name="Roll" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Engine_Graxcorp_x0020_Experimental_x0020_Quantum_x0020_Slipstream_x0020_Drive">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                <xs:element name="Yaw" type="xs:double" minOccurs="0" />
+                <xs:element name="Roll" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Booster_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Consumption" type="xs:double" minOccurs="0" />
+                <xs:element name="Acceleration" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Booster_Graxcorp_x0020_Experimental_x0020_Booster">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Consumption" type="xs:double" minOccurs="0" />
+                <xs:element name="Acceleration" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Booster_Graxcorp_x0020_Experimental_x0020_Mark_x0020_II_x0020_Booster">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Consumption" type="xs:double" minOccurs="0" />
+                <xs:element name="Acceleration" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Sheild_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Front_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Back_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Adjustment" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Sheild_Illegally_x0020_Modified_x0020_Protect-o_x0020_Net">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Front_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Back_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Adjustment" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Sheild_Mark_x0020_VIII_x0020_Reward_x0020_Shield">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Front_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Back_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Adjustment" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor__x002A_NHD_x002A__x0020_Cert_x0020_3_x0020_Armor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor_NHD_x0020_Fibertech_x0020_Armor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor_Mark_x0020_IX_x0020_Armor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor_Experimental_x0020_Mark_x0020_V_x0020_Phase-Shifted_x0020_Armor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Droid_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Command_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Droid_Prenerf">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Command_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Droid_Prenerf_x0020_X">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Command_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Capacitor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Capacitor_Experimental_x0020_Capacitor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Capacitor_NHD_x0020_Mark_x0020_VI_x0020_Capacitor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Ordinance_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Ammo" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Ordinance_Graxcorp_x0020_Drain-Capped_x0020_IR2_x0020_Launcher">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Ammo" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Ordinance_NHD_x0020_IRII_x0020_Launcher">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Ammo" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Weapon_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="EPS" type="xs:double" minOccurs="0" />
+                <xs:element name="Refire" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Weapon_Experimental_x0020_Gauss_x0020_Cannon">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="EPS" type="xs:double" minOccurs="0" />
+                <xs:element name="Refire" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Weapon_Experimental_x0020_Gauss_x0020_Cannon_x0020_II">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="EPS" type="xs:double" minOccurs="0" />
+                <xs:element name="Refire" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Weapon_Lesternon_x0020_Uproar">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="EPS" type="xs:double" minOccurs="0" />
+                <xs:element name="Refire" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chaff_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chaff_Graxcorp_x0020_Dual-Capped_x0020_Chaff_x0020_Launcher">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chaff_NHD_x0020_Chaff_x0020_Launcher">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Reactor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Reactor_Experimental_x0020_Fusion_x0020_Reactor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Reactor_Experimental_x0020_Fusion_x0020_Reactor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Reactor_NHD_x0020_Aroura_x0020_Max_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Reactor_NHD_x0020_Aroura_x0020_Max" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Engine_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Engine_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Engine_Illegally_x0020_Modified_x0020_Novadelex_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Engine_Illegally_x0020_Modified_x0020_Novadelex" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Engine_Graxcorp_x0020_Experimental_x0020_Slipstream_x0020_Drive_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Engine_Graxcorp_x0020_Experimental_x0020_Slipstream_x0020_Drive" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Engine_Graxcorp_x0020_Experimental_x0020_Quantum_x0020_Slipstream_x0020_Drive_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Engine_Graxcorp_x0020_Experimental_x0020_Quantum_x0020_Slipstream_x0020_Drive" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Booster_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Booster_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Booster_Graxcorp_x0020_Experimental_x0020_Booster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Booster_Graxcorp_x0020_Experimental_x0020_Booster" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Booster_Graxcorp_x0020_Experimental_x0020_Mark_x0020_II_x0020_Booster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Booster_Graxcorp_x0020_Experimental_x0020_Mark_x0020_II_x0020_Booster" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Sheild_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Sheild_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Sheild_Illegally_x0020_Modified_x0020_Protect-o_x0020_Net_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Sheild_Illegally_x0020_Modified_x0020_Protect-o_x0020_Net" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Sheild_Mark_x0020_VIII_x0020_Reward_x0020_Shield_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Sheild_Mark_x0020_VIII_x0020_Reward_x0020_Shield" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor__x002A_NHD_x002A__x0020_Cert_x0020_3_x0020_Armor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor__x002A_NHD_x002A__x0020_Cert_x0020_3_x0020_Armor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor_NHD_x0020_Fibertech_x0020_Armor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor_NHD_x0020_Fibertech_x0020_Armor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor_Mark_x0020_IX_x0020_Armor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor_Mark_x0020_IX_x0020_Armor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor_Experimental_x0020_Mark_x0020_V_x0020_Phase-Shifted_x0020_Armor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor_Experimental_x0020_Mark_x0020_V_x0020_Phase-Shifted_x0020_Armor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Droid_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Droid_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Droid_Prenerf_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Droid_Prenerf" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Droid_Prenerf_x0020_X_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Droid_Prenerf_x0020_X" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Capacitor_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Capacitor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Capacitor_Experimental_x0020_Capacitor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Capacitor_Experimental_x0020_Capacitor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Capacitor_NHD_x0020_Mark_x0020_VI_x0020_Capacitor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Capacitor_NHD_x0020_Mark_x0020_VI_x0020_Capacitor" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Ordinance_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Ordinance_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Ordinance_Graxcorp_x0020_Drain-Capped_x0020_IR2_x0020_Launcher_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Ordinance_Graxcorp_x0020_Drain-Capped_x0020_IR2_x0020_Launcher" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Ordinance_NHD_x0020_IRII_x0020_Launcher_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Ordinance_NHD_x0020_IRII_x0020_Launcher" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Weapon_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Weapon_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Weapon_Experimental_x0020_Gauss_x0020_Cannon_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Weapon_Experimental_x0020_Gauss_x0020_Cannon" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Weapon_Experimental_x0020_Gauss_x0020_Cannon_x0020_II_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Weapon_Experimental_x0020_Gauss_x0020_Cannon_x0020_II" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Weapon_Lesternon_x0020_Uproar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Weapon_Lesternon_x0020_Uproar" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Chaff_None_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Chaff_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Chaff_Graxcorp_x0020_Dual-Capped_x0020_Chaff_x0020_Launcher_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Chaff_Graxcorp_x0020_Dual-Capped_x0020_Chaff_x0020_Launcher" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Chaff_NHD_x0020_Chaff_x0020_Launcher_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Chaff_NHD_x0020_Chaff_x0020_Launcher" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Reactor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Generation>0</Generation>
+  </Reactor_None>
+  <Reactor_Experimental_x0020_Fusion_x0020_Reactor>
+    <Name>Experimental Fusion Reactor</Name>
+    <Armor>190.1</Armor>
+    <Mass>1663.6</Mass>
+    <Generation>15114.5</Generation>
+  </Reactor_Experimental_x0020_Fusion_x0020_Reactor>
+  <Reactor_NHD_x0020_Aroura_x0020_Max>
+    <Name>NHD Aroura Max</Name>
+    <Armor>412.2</Armor>
+    <Mass>13874.4</Mass>
+    <Generation>34190</Generation>
+  </Reactor_NHD_x0020_Aroura_x0020_Max>
+  <Engine_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Pitch>0</Pitch>
+    <Yaw>0</Yaw>
+    <Roll>0</Roll>
+    <Top_x0020_Speed>0</Top_x0020_Speed>
+  </Engine_None>
+  <Engine_Illegally_x0020_Modified_x0020_Novadelex>
+    <Name>Illegally Modified Novadelex</Name>
+    <Armor>685.7</Armor>
+    <Mass>21149.2</Mass>
+    <Drain>1256.8</Drain>
+    <Pitch>76.9</Pitch>
+    <Yaw>77.2</Yaw>
+    <Roll>77.1</Roll>
+    <Top_x0020_Speed>106.1</Top_x0020_Speed>
+  </Engine_Illegally_x0020_Modified_x0020_Novadelex>
+  <Engine_Graxcorp_x0020_Experimental_x0020_Slipstream_x0020_Drive>
+    <Name>Graxcorp Experimental Slipstream Drive</Name>
+    <Armor>516.6</Armor>
+    <Mass>34484.6</Mass>
+    <Drain>1913.4</Drain>
+    <Pitch>77</Pitch>
+    <Yaw>76.2</Yaw>
+    <Roll>69</Roll>
+    <Top_x0020_Speed>117</Top_x0020_Speed>
+  </Engine_Graxcorp_x0020_Experimental_x0020_Slipstream_x0020_Drive>
+  <Engine_Graxcorp_x0020_Experimental_x0020_Quantum_x0020_Slipstream_x0020_Drive>
+    <Name>Graxcorp Experimental Quantum Slipstream Drive</Name>
+    <Armor>516</Armor>
+    <Mass>34484.7</Mass>
+    <Drain>1769.5</Drain>
+    <Pitch>86.9</Pitch>
+    <Yaw>85.3</Yaw>
+    <Roll>76.1</Roll>
+    <Top_x0020_Speed>105</Top_x0020_Speed>
+  </Engine_Graxcorp_x0020_Experimental_x0020_Quantum_x0020_Slipstream_x0020_Drive>
+  <Booster_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Energy>0</Energy>
+    <Recharge>0</Recharge>
+    <Consumption>0</Consumption>
+    <Acceleration>0</Acceleration>
+    <Top_x0020_Speed>0</Top_x0020_Speed>
+  </Booster_None>
+  <Booster_Graxcorp_x0020_Experimental_x0020_Booster>
+    <Name>Graxcorp Experimental Booster</Name>
+    <Armor>64</Armor>
+    <Mass>954.1</Mass>
+    <Drain>491.2</Drain>
+    <Energy>876.3</Energy>
+    <Recharge>22.4</Recharge>
+    <Consumption>83.4</Consumption>
+    <Acceleration>26.3</Acceleration>
+    <Top_x0020_Speed>34</Top_x0020_Speed>
+  </Booster_Graxcorp_x0020_Experimental_x0020_Booster>
+  <Booster_Graxcorp_x0020_Experimental_x0020_Mark_x0020_II_x0020_Booster>
+    <Name>Graxcorp Experimental Mark II Booster</Name>
+    <Armor>146.1</Armor>
+    <Mass>2387.5</Mass>
+    <Drain>590.4</Drain>
+    <Energy>962.5</Energy>
+    <Recharge>24</Recharge>
+    <Consumption>82.8</Consumption>
+    <Acceleration>30.5</Acceleration>
+    <Top_x0020_Speed>36.9</Top_x0020_Speed>
+  </Booster_Graxcorp_x0020_Experimental_x0020_Mark_x0020_II_x0020_Booster>
+  <Sheild_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Front_x0020_HP>0</Front_x0020_HP>
+    <Back_x0020_HP>0</Back_x0020_HP>
+    <Recharge>0</Recharge>
+    <Adjustment>4</Adjustment>
+  </Sheild_None>
+  <Sheild_Illegally_x0020_Modified_x0020_Protect-o_x0020_Net>
+    <Name>Illegally Modified Protect-o Net</Name>
+    <Armor>623.4</Armor>
+    <Mass>13948.4</Mass>
+    <Drain>1560.2</Drain>
+    <Front_x0020_HP>2284.6</Front_x0020_HP>
+    <Back_x0020_HP>2284.6</Back_x0020_HP>
+    <Recharge>16.1</Recharge>
+    <Adjustment>1</Adjustment>
+  </Sheild_Illegally_x0020_Modified_x0020_Protect-o_x0020_Net>
+  <Sheild_Mark_x0020_VIII_x0020_Reward_x0020_Shield>
+    <Name>Mark VIII Reward Shield</Name>
+    <Armor>610.1</Armor>
+    <Mass>26931.3</Mass>
+    <Drain>2455.2</Drain>
+    <Front_x0020_HP>2555.1</Front_x0020_HP>
+    <Back_x0020_HP>2555.1</Back_x0020_HP>
+    <Recharge>14.87</Recharge>
+    <Adjustment>1</Adjustment>
+  </Sheild_Mark_x0020_VIII_x0020_Reward_x0020_Shield>
+  <Armor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+  </Armor_None>
+  <Armor__x002A_NHD_x002A__x0020_Cert_x0020_3_x0020_Armor>
+    <Name>*NHD* Cert 3 Armor</Name>
+    <Armor>544.1</Armor>
+    <Mass>1220.7</Mass>
+  </Armor__x002A_NHD_x002A__x0020_Cert_x0020_3_x0020_Armor>
+  <Armor_NHD_x0020_Fibertech_x0020_Armor>
+    <Name>NHD Fibertech Armor</Name>
+    <Armor>2015.9</Armor>
+    <Mass>14364.4</Mass>
+  </Armor_NHD_x0020_Fibertech_x0020_Armor>
+  <Armor_Mark_x0020_IX_x0020_Armor>
+    <Name>Mark IX Armor</Name>
+    <Armor>1930.6</Armor>
+    <Mass>6830.7</Mass>
+  </Armor_Mark_x0020_IX_x0020_Armor>
+  <Armor_Experimental_x0020_Mark_x0020_V_x0020_Phase-Shifted_x0020_Armor>
+    <Name>Experimental Mark V Phase-Shifted Armor</Name>
+    <Armor>1119.3</Armor>
+    <Mass>1786.8</Mass>
+  </Armor_Experimental_x0020_Mark_x0020_V_x0020_Phase-Shifted_x0020_Armor>
+  <Droid_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Command_x0020_Speed>0</Command_x0020_Speed>
+  </Droid_None>
+  <Droid_Prenerf>
+    <Name>Prenerf</Name>
+    <Armor>74.3</Armor>
+    <Mass>482.6</Mass>
+    <Drain>497.6</Drain>
+    <Command_x0020_Speed>15.4</Command_x0020_Speed>
+  </Droid_Prenerf>
+  <Droid_Prenerf_x0020_X>
+    <Name>Prenerf X</Name>
+    <Armor>23.1</Armor>
+    <Mass>500.3</Mass>
+    <Drain>496.3</Drain>
+    <Command_x0020_Speed>14.9</Command_x0020_Speed>
+  </Droid_Prenerf_x0020_X>
+  <Capacitor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Energy>0</Energy>
+    <Recharge>0</Recharge>
+  </Capacitor_None>
+  <Capacitor_Experimental_x0020_Capacitor>
+    <Name>Experimental Capacitor</Name>
+    <Armor>114.2</Armor>
+    <Mass>1055.8</Mass>
+    <Drain>557.2</Drain>
+    <Energy>1009.5</Energy>
+    <Recharge>39.2</Recharge>
+  </Capacitor_Experimental_x0020_Capacitor>
+  <Capacitor_NHD_x0020_Mark_x0020_VI_x0020_Capacitor>
+    <Name>NHD Mark VI Capacitor</Name>
+    <Armor>516.4</Armor>
+    <Mass>7923.1</Mass>
+    <Drain>649.6</Drain>
+    <Energy>1315.8</Energy>
+    <Recharge>49.9</Recharge>
+  </Capacitor_NHD_x0020_Mark_x0020_VI_x0020_Capacitor>
+  <Ordinance_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Min_x0020_Damage>0</Min_x0020_Damage>
+    <Max_x0020_Damage>0</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0</vs_x0020_Armor>
+    <Ammo>0</Ammo>
+  </Ordinance_None>
+  <Ordinance_Graxcorp_x0020_Drain-Capped_x0020_IR2_x0020_Launcher>
+    <Name>Graxcorp Drain-Capped IR2 Launcher</Name>
+    <Armor>436.7</Armor>
+    <Mass>5358</Mass>
+    <Drain>978</Drain>
+    <Min_x0020_Damage>1</Min_x0020_Damage>
+    <Max_x0020_Damage>10</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0.5</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0.5</vs_x0020_Armor>
+    <Ammo>7</Ammo>
+  </Ordinance_Graxcorp_x0020_Drain-Capped_x0020_IR2_x0020_Launcher>
+  <Ordinance_NHD_x0020_IRII_x0020_Launcher>
+    <Name>NHD IRII Launcher</Name>
+    <Armor>429.9</Armor>
+    <Mass>5598.8</Mass>
+    <Drain>1109.3</Drain>
+    <Min_x0020_Damage>2058.3</Min_x0020_Damage>
+    <Max_x0020_Damage>6145.8</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0.43</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0.43</vs_x0020_Armor>
+    <Ammo>7</Ammo>
+  </Ordinance_NHD_x0020_IRII_x0020_Launcher>
+  <Weapon_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Min_x0020_Damage>0</Min_x0020_Damage>
+    <Max_x0020_Damage>0</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0</vs_x0020_Armor>
+    <EPS>0</EPS>
+    <Refire>0</Refire>
+  </Weapon_None>
+  <Weapon_Experimental_x0020_Gauss_x0020_Cannon>
+    <Name>Experimental Gauss Cannon</Name>
+    <Armor>714.9</Armor>
+    <Mass>19635.1</Mass>
+    <Drain>1544.2</Drain>
+    <Min_x0020_Damage>2531</Min_x0020_Damage>
+    <Max_x0020_Damage>3913.6</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0.71</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0.72</vs_x0020_Armor>
+    <EPS>13.3</EPS>
+    <Refire>0.37</Refire>
+  </Weapon_Experimental_x0020_Gauss_x0020_Cannon>
+  <Weapon_Experimental_x0020_Gauss_x0020_Cannon_x0020_II>
+    <Name>Experimental Gauss Cannon II</Name>
+    <Armor>762.2</Armor>
+    <Mass>23299.1</Mass>
+    <Drain>1708.1</Drain>
+    <Min_x0020_Damage>2530.9</Min_x0020_Damage>
+    <Max_x0020_Damage>3913.5</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0.7</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0.7</vs_x0020_Armor>
+    <EPS>13.3</EPS>
+    <Refire>0.37</Refire>
+  </Weapon_Experimental_x0020_Gauss_x0020_Cannon_x0020_II>
+  <Weapon_Lesternon_x0020_Uproar>
+    <Name>Lesternon Uproar</Name>
+    <Armor>735.9</Armor>
+    <Mass>22163.2</Mass>
+    <Drain>1742.4</Drain>
+    <Min_x0020_Damage>2507.2</Min_x0020_Damage>
+    <Max_x0020_Damage>3876.8</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0.69</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0.69</vs_x0020_Armor>
+    <EPS>13.4</EPS>
+    <Refire>0.37</Refire>
+  </Weapon_Lesternon_x0020_Uproar>
+  <Chaff_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+  </Chaff_None>
+  <Chaff_Graxcorp_x0020_Dual-Capped_x0020_Chaff_x0020_Launcher>
+    <Name>Graxcorp Dual-Capped Chaff Launcher</Name>
+    <Armor>70.5</Armor>
+    <Mass>850</Mass>
+    <Drain>850</Drain>
+  </Chaff_Graxcorp_x0020_Dual-Capped_x0020_Chaff_x0020_Launcher>
+  <Chaff_NHD_x0020_Chaff_x0020_Launcher>
+    <Name>NHD Chaff Launcher</Name>
+    <Armor>69.5</Armor>
+    <Mass>885.8</Mass>
+    <Drain>977.1</Drain>
+  </Chaff_NHD_x0020_Chaff_x0020_Launcher>
+</pilotname>

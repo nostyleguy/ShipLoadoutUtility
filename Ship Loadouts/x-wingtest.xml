@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<pilotname>
+  <xs:schema id="pilotname" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pilotname" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Ship_Adv._x0020_X-wing_Sabre_x0020_1-X">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Chassis" type="xs:int" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Reactor_x0020_Overload" type="xs:int" minOccurs="0" />
+                <xs:element name="Engine_x0020_Overload" type="xs:int" minOccurs="0" />
+                <xs:element name="Weapon_x0020_Overload" type="xs:int" minOccurs="0" />
+                <xs:element name="Capacitor_x0020_Overload" type="xs:int" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Reactor" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Engine" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Booster" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Sheild" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Front_x0020_Armor" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Rear_x0020_Armor" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Droid" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Capacitor" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Weapon_x0020_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Weapon_x0020_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Weapon_x0020_3" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Weapon_x0020_4" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Ordinance_x0020_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Ordinance_x0020_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Ordinance_x0020_3" type="xs:string" minOccurs="0" />
+                <xs:element name="Loaded_x0020_Chaff" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Ship_Adv._x0020_X-wing_Sabre_x0020_1-X" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Ship_Adv._x0020_X-wing_Sabre_x0020_1-X>
+    <Name>Sabre 1-X</Name>
+    <Chassis>8</Chassis>
+    <Mass>180000</Mass>
+    <Reactor_x0020_Overload>4</Reactor_x0020_Overload>
+    <Engine_x0020_Overload>4</Engine_x0020_Overload>
+    <Weapon_x0020_Overload>4</Weapon_x0020_Overload>
+    <Capacitor_x0020_Overload>4</Capacitor_x0020_Overload>
+    <Loaded_x0020_Reactor>NHD Aroura Max</Loaded_x0020_Reactor>
+    <Loaded_x0020_Engine>Graxcorp Experimental Slipstream Drive</Loaded_x0020_Engine>
+    <Loaded_x0020_Booster>Graxcorp Experimental Mark II Booster</Loaded_x0020_Booster>
+    <Loaded_x0020_Sheild>Mark VIII Reward Shield</Loaded_x0020_Sheild>
+    <Loaded_x0020_Front_x0020_Armor>NHD Fibertech Armor</Loaded_x0020_Front_x0020_Armor>
+    <Loaded_x0020_Rear_x0020_Armor>Mark IX Armor</Loaded_x0020_Rear_x0020_Armor>
+    <Loaded_x0020_Droid>Prenerf X</Loaded_x0020_Droid>
+    <Loaded_x0020_Capacitor>NHD Mark VI Capacitor</Loaded_x0020_Capacitor>
+    <Loaded_x0020_Weapon_x0020_1>Experimental Gauss Cannon</Loaded_x0020_Weapon_x0020_1>
+    <Loaded_x0020_Weapon_x0020_2>Experimental Gauss Cannon II</Loaded_x0020_Weapon_x0020_2>
+    <Loaded_x0020_Weapon_x0020_3>Lesternon Uproar</Loaded_x0020_Weapon_x0020_3>
+    <Loaded_x0020_Weapon_x0020_4>None</Loaded_x0020_Weapon_x0020_4>
+    <Loaded_x0020_Ordinance_x0020_1>NHD IRII Launcher</Loaded_x0020_Ordinance_x0020_1>
+    <Loaded_x0020_Ordinance_x0020_2>None</Loaded_x0020_Ordinance_x0020_2>
+    <Loaded_x0020_Ordinance_x0020_3>None</Loaded_x0020_Ordinance_x0020_3>
+    <Loaded_x0020_Chaff>NHD Chaff Launcher</Loaded_x0020_Chaff>
+  </Ship_Adv._x0020_X-wing_Sabre_x0020_1-X>
+</pilotname>

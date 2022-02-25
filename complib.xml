@@ -1,0 +1,263 @@
+<?xml version="1.0" standalone="yes"?>
+<pilotname>
+  <xs:schema id="pilotname" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pilotname" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Reactor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Generation" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Engine_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                <xs:element name="Yaw" type="xs:double" minOccurs="0" />
+                <xs:element name="Roll" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Booster_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Consumption" type="xs:double" minOccurs="0" />
+                <xs:element name="Acceleration" type="xs:double" minOccurs="0" />
+                <xs:element name="Top_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Sheild_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Front_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Back_x0020_HP" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+                <xs:element name="Adjustment" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Armor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Droid_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Command_x0020_Speed" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Capacitor_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Energy" type="xs:double" minOccurs="0" />
+                <xs:element name="Recharge" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Ordinance_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Ammo" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Weapon_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+                <xs:element name="Min_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="Max_x0020_Damage" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Sheilds" type="xs:double" minOccurs="0" />
+                <xs:element name="vs_x0020_Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="EPS" type="xs:double" minOccurs="0" />
+                <xs:element name="Refire" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chaff_None">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" />
+                <xs:element name="Armor" type="xs:double" minOccurs="0" />
+                <xs:element name="Mass" type="xs:double" minOccurs="0" />
+                <xs:element name="Drain" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Reactor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Engine_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Engine_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Booster_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Booster_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Sheild_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Sheild_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Armor_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Armor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Droid_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Droid_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Capacitor_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Capacitor_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Ordinance_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Ordinance_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Weapon_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Weapon_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+      <xs:unique name="Chaff_None_Constradouble1" msdata:ConstradoubleName="Constradouble1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Chaff_None" />
+        <xs:field xpath="Name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Reactor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Generation>0</Generation>
+  </Reactor_None>
+  <Engine_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Pitch>0</Pitch>
+    <Yaw>0</Yaw>
+    <Roll>0</Roll>
+    <Top_x0020_Speed>0</Top_x0020_Speed>
+  </Engine_None>
+  <Booster_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Energy>0</Energy>
+    <Recharge>0</Recharge>
+    <Consumption>0</Consumption>
+    <Acceleration>0</Acceleration>
+    <Top_x0020_Speed>0</Top_x0020_Speed>
+  </Booster_None>
+  <Sheild_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Front_x0020_HP>0</Front_x0020_HP>
+    <Back_x0020_HP>0</Back_x0020_HP>
+    <Recharge>0</Recharge>
+    <Adjustment>4</Adjustment>
+  </Sheild_None>
+  <Armor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+  </Armor_None>
+  <Droid_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Command_x0020_Speed>0</Command_x0020_Speed>
+  </Droid_None>
+  <Capacitor_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Energy>0</Energy>
+    <Recharge>0</Recharge>
+  </Capacitor_None>
+  <Ordinance_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Min_x0020_Damage>0</Min_x0020_Damage>
+    <Max_x0020_Damage>0</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0</vs_x0020_Armor>
+    <Ammo>0</Ammo>
+  </Ordinance_None>
+  <Weapon_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+    <Min_x0020_Damage>0</Min_x0020_Damage>
+    <Max_x0020_Damage>0</Max_x0020_Damage>
+    <vs_x0020_Sheilds>0</vs_x0020_Sheilds>
+    <vs_x0020_Armor>0</vs_x0020_Armor>
+    <EPS>0</EPS>
+    <Refire>0</Refire>
+  </Weapon_None>
+  <Chaff_None>
+    <Name>None</Name>
+    <Armor>0</Armor>
+    <Mass>0</Mass>
+    <Drain>0</Drain>
+  </Chaff_None>
+</pilotname>
